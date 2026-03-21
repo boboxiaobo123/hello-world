@@ -1,4 +1,32 @@
-# hello-world
-hello_world
+# 计算器
 
-tutorial for commit changes.
+一个基于终端的图形界面计算器，使用Python和curses库实现。
+
+## 功能
+
+- 基本的四则运算：加法、减法、乘法、除法
+- 小数点支持
+- 错误处理（除零检测）
+- 清除功能
+- 直观的终端界面
+
+## 使用方法
+
+运行以下命令启动计算器：
+
+```bash
+python3 calculator.py
+```
+
+### 操作说明
+
+- 使用数字键输入数字
+- 使用 `+`, `-`, `*`, `/` 选择运算符
+- 按 `=` 或 Enter 计算结果
+- 按 `c` 或 Backspace 清除
+- 按 `q` 或 ESC 退出
+
+## 系统要求
+
+- Python 3.x
+- 支持curses的终端（大多数Unix/Linux/macOS终端都支持）
