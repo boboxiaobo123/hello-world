@@ -39,8 +39,8 @@ class BusinessTimerApp:
     self.running = False
     self.update_id = None
     
-    # 创建字体
-    self.font_time = tkfont.Font(family='Segoe UI', size=56, weight='bold')
+    # 创建字体 - 时间显示使用等宽字体防止跳动
+    self.font_time = tkfont.Font(family='Courier New', size=56, weight='bold')
     self.font_label = tkfont.Font(family='Segoe UI', size=11)
     self.font_button = tkfont.Font(family='Segoe UI', size=12, weight='bold')
     self.font_status = tkfont.Font(family='Segoe UI', size=10)
